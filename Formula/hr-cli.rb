@@ -1,28 +1,28 @@
 class HrCli < Formula
   desc "CLI for HR systems — Greeting HR (app.greetinghr.com) and beyond"
   homepage "https://github.com/zigbang-smarthome/hr-cli"
-  version "26.4.3"
+  version "26.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/zigbang-smarthome/hr-cli/releases/download/v#{version}/hr-darwin-arm64.tar.gz"
-      sha256 "e8a413317d795b410bc73fffef37138790bb9cbff1adfacaea12e8c6282c13d2"
+      sha256 "1bd7e77af1e57728e2895ceed174ba6b6a7a0318863ad8f197a29860cfcdf81b"
     end
     on_intel do
       url "https://github.com/zigbang-smarthome/hr-cli/releases/download/v#{version}/hr-darwin-amd64.tar.gz"
-      sha256 "0ecfea2591ebe16b98c61228c987ca83d2666dd31fb552e8fe19a88cd78cf64c"
+      sha256 "941adcba6336240616523b1c75d4a7aeb80fce1f3b239b3a5cb3400e2ad5eb47"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/zigbang-smarthome/hr-cli/releases/download/v#{version}/hr-linux-arm64.tar.gz"
-      sha256 "a47381211c2c2d2bacdbcd31983f488ca7004e785c47709806171eb3eb06f18a"
+      sha256 "51894d1ce86ad9a5f0ea4455ed609beee915c5016d20e4a575abbfb081c1ef6f"
     end
     on_intel do
       url "https://github.com/zigbang-smarthome/hr-cli/releases/download/v#{version}/hr-linux-amd64.tar.gz"
-      sha256 "558d5629457b893dd85b3f76a9c899366843cf028e2f74acb1c2be5e4e110200"
+      sha256 "1af2ed9e01e19fb7bd0bfe6e38b26a86c596aa78426fe1090ec9e4050d771fe6"
     end
   end
 
